@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="MHS">
+  <DataContextMoniker Name="/MHSDataContext" />
+  <nestedChildShapes>
+    <classShape Id="9687f125-a3e9-4b06-8a30-b6924d5a52b6" absoluteBounds="0.75, 0.875, 2, 1.5785953776041664">
+      <DataClassMoniker Name="/MHSDataContext/Tmahasiswa" />
+      <nestedChildShapes>
+        <elementListCompartment Id="2abf7e4c-c310-4e54-b976-114882dd23f1" absoluteBounds="0.765, 1.335, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="4d2ce040-4cc9-4fe8-9718-0c34ee5a8b22" absoluteBounds="3.5, 0.875, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/MHSDataContext/Tnilai" />
+      <nestedChildShapes>
+        <elementListCompartment Id="8e05dfa9-55d7-474b-9c91-449053ab292d" absoluteBounds="3.515, 1.335, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.75 : 1.66429768880208); (3.5 : 1.66429768880208)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/MHSDataContext/Tmahasiswa/Tmahasiswa_Tnilai" />
+      <nodes>
+        <classShapeMoniker Id="9687f125-a3e9-4b06-8a30-b6924d5a52b6" />
+        <classShapeMoniker Id="4d2ce040-4cc9-4fe8-9718-0c34ee5a8b22" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
